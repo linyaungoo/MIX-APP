@@ -3,6 +3,8 @@ import {useState, useEffect} from 'react';
 
 //34eabfa9
 
+const API_URL = 'http://www.omdapi.com?apikey=34eabfa9';
+
 const App =() => {
   const [counter, setCounter] = useState(0);
 
